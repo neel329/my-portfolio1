@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neel's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Neel's Portfolio</div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Innovative solutions, creative designs, and cutting-edge technology.</p>
+            <button class="cta-btn" onclick="scrollToSection('about')">Learn More</button>
+        </div>
+    </section>
+
+    <section id="about" class="section-about">
+        <h2>About Me</h2>
+        <div class="bio">
+            <img src="C:\Users\neelv\Downloads\neel picture.jpg" alt="Neel image"> width="150" height="150" 
+            <p>I am Neel, a passionate developer with a focus on web technologies and AI solutions. I love solving real-world problems using code and creativity ,as a dedicated Cyber security enthusiastic , I have a strong foundation in , AWS, DevSecOps, networking and python language. I am focused on expanding my expertise in Cybersecurity .I have successfully worked on projects such as a Medical Chatbot that leverages NLP and CNN for analysis and response generation, and I am also developing an end-to-end AWS DevSecOps CI/CD pipeline. My experiences have equipped me with skills in project management, cloud base technology , and I am constantly seeking to learn .</p>
+        </div>
+    </section>
+
+    <section id="projects" class="section-projects">
+        <h2>My Projects</h2>
+        <div class="project-cards">
+            <div class="card">
+                <img src="https://acropolium.com/img/articles/chatbots-in-healthcare/img01.jpg" alt="Project 1"> width="150" height="150"
+                <h3>Project 1</h3>
+                <p>AI-powered Medical Chatbot</p>
+                <button onclick="window.open('https://github.com/neel329/MEDICAL-CHATBOT', '_blank')">View Project</button>
+            </div>
+            <div class="card">
+                <img src="https://www.xenonstack.com/hs-fs/hubfs/devsecops-pipeline-aws.png?width=1280&height=720&name=devsecops-pipeline-aws.png" alt="Project 2"> width="150" height="150"
+                <h3>Project 2</h3>
+                <p>Building-an-end-to-end-AWS-devsecops-CI-CD-pipeline-with-SAST-and-DAST-tools</p>
+                <button onclick="window.open('https://github.com/neel329/Building-an-end-to-end-AWS-devsecops-CI-CD-pipeline-with-SAST-and-DAST-tools', '_blank')">View Project</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="cta-btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Neel | All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
