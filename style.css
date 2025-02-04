@@ -293,3 +293,30 @@ header {
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"><a href="#about"><i class="fas fa-user"></i> About</a>
 <a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a>
 
+/* Social Media Buttons */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.social-btn {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.social-btn i {
+    margin-right: 10px;
+}
+
+.social-btn:hover {
+    background-color: #555;
+}

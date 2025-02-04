@@ -87,16 +87,9 @@
 
     <footer>
         <p>&copy; 2025 Neel | All rights reserved.</p>
-        div class="social-links">
-            <a href="www.linkedin.com/in/neel-wadake" target="_blank" class="social-btn">
-                <i class="fab fa-linkedin"></i> LinkedIn
-            </a>
-            <a href="https://github.com/neel329" target="_blank" class="social-btn">
-                <i class="fab fa-github"></i> GitHub
-            </a>
-        </div>
     </footer>
 
     <script src="script.js"></script>
 </body>
 </html>
+
